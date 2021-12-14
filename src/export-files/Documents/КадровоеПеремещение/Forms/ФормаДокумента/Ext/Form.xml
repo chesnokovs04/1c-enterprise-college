@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Руководитель" id="7">
+			<DataPath>Объект.Руководитель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РуководительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РуководительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Комментарий" id="10">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<Table name="СписокСотрудников" id="13">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.СписокСотрудников</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокСотрудниковКонтекстноеМеню" id="14"/>
+			<AutoCommandBar name="СписокСотрудниковКоманднаяПанель" id="15"/>
+			<ExtendedTooltip name="СписокСотрудниковРасширеннаяПодсказка" id="16"/>
+			<SearchStringAddition name="СписокСотрудниковСтрокаПоиска" id="17">
+				<AdditionSource>
+					<Item>СписокСотрудников</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСотрудниковСтрокаПоискаКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="СписокСотрудниковСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСотрудниковСостояниеПросмотра" id="20">
+				<AdditionSource>
+					<Item>СписокСотрудников</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСотрудниковСостояниеПросмотраКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="СписокСотрудниковСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокСотрудниковУправлениеПоиском" id="23">
+				<AdditionSource>
+					<Item>СписокСотрудников</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСотрудниковУправлениеПоискомКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="СписокСотрудниковУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="СписокСотрудниковНомерСтроки" id="26">
+					<DataPath>Объект.СписокСотрудников.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСотрудниковНомерСтрокиКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="СписокСотрудниковНомерСтрокиРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<InputField name="СписокСотрудниковСотрудник" id="29">
+					<DataPath>Объект.СписокСотрудников.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСотрудниковСотрудникКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="СписокСотрудниковСотрудникРасширеннаяПодсказка" id="31"/>
+					<Events>
+						<Event name="OnChange">СписокСотрудниковСотрудникПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="СписокСотрудниковДатаНачала" id="32">
+					<DataPath>Объект.СписокСотрудников.ДатаНачала</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСотрудниковДатаНачалаКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="СписокСотрудниковДатаНачалаРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="СписокСотрудниковПодразделение" id="35">
+					<DataPath>Объект.СписокСотрудников.Подразделение</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСотрудниковПодразделениеКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="СписокСотрудниковПодразделениеРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="СписокСотрудниковДолжность" id="38">
+					<DataPath>Объект.СписокСотрудников.Должность</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСотрудниковДолжностьКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="СписокСотрудниковДолжностьРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="СписокСотрудниковЗанимаемыхСтавок" id="41">
+					<DataPath>Объект.СписокСотрудников.ЗанимаемыхСтавок</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокСотрудниковЗанимаемыхСтавокКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="СписокСотрудниковЗанимаемыхСтавокРасширеннаяПодсказка" id="43"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.КадровоеПеремещение</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
