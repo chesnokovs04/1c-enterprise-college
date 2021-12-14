@@ -32,26 +32,122 @@
 
 ## Обзор
 
-Разрабатываемая автоматизированная информационная система «Управление отделением учебного заведения» включает в себя следующие подсистемы:
+Версия 1С:Предприятия на момент разработки: <i>8.3.15.1700</i>. Разрабатываемая автоматизированная информационная система «Управление отделением учебного заведения» включает в себя следующие подсистемы:
 
 ### Подсистема «Отделение»
+
+![Отделение](https://user-images.githubusercontent.com/36636599/146055537-39656c7a-e3b3-4434-9750-bde8d570fa03.png)
 
 Состоит из основных справочников: отделений, учебных групп и студентов. Дополнительные справочники: специальности, список квалификаций, физические лица, программы обучения, периоды обучения и должности. Основной документ — это приказ о движении контингента, который состоит из нескольких форм: зачисление, отчисление, восстановление, выпуск, перевод на другой курс и перевод в другую группу. Также, есть возможность создать документ справки об обучении. Отчеты: анализ движения контингента, анализ контингента, анализ контингента по возрасту и финансированию, динамика движения контингента, кадровая история студентов, контингент студентов и список учебных групп;
 
 ### Подсистема «Кадровый учет»
 
+![Кадровый учет](https://user-images.githubusercontent.com/36636599/146055585-fd4b4f9e-8aba-4a4d-ab48-e4702ed8f2e9.png)
+
 Вспомогательная подсистема, у которой главный справочник — сотрудники, а дополнительными являются должности, подразделения, организации, ученые степени и звания. Есть возможность создать документ о приеме на работу, увольнении и кадровом перемещении. Формируются следующие отчеты: кадровые изменения, квалификация сотрудников, контактная информация сотрудников, план аттестаций и список сотрудников;
 
 ### Подсистема «Посещаемость»
+
+![Посещаемость](https://user-images.githubusercontent.com/36636599/146055613-663f1430-942b-4d6d-9dcf-427143a2e1f2.png)
 
 Имеет главный документ о регистрации пропусков занятий, а также дополнительные подсистемы: причины пропусков и дисциплины. Формируются следующие отчеты: анализ посещаемости, графический рейтинг опозданий, посещаемость по дням, рейтинг групп по посещаемости, сводная ведомость по посещаемости;
 
 ### Подсистема «Успеваемость»
 
+![Успеваемость](https://user-images.githubusercontent.com/36636599/146055634-0f8a29d0-e40c-4197-855f-1924bc08bbb3.png)
+
 Имеет два важных документа: ведомость и направление на пересдачу. Дополнительные справочники: виды контроля и типы контрольных мероприятий, а также, регистр сведений оценки студентов. Формируются следующие отчеты: анализ задолженностей, анализ оценок, графический рейтинг успеваемости, журнал регистрации документов по успеваемости, сводная ведомость по успеваемости.
 
+## Начало работы
 
+1) Загрузите файл информационной базы `YudinBase.dt` к себе на компьютер.
+2) Зайдите в конфигурацию
+3) В разделе Администрирование нажмите Загрузить информационную базу
 
+Пароль для всех пользователей **1**.
 
+## Примеры
 
+<details>
+ <summary>Список студентов</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146058138-0379ec30-c3bf-4b4b-95be-4bd90580e578.png)
+</details>
 
+<details>
+ <summary>Печать студенческого билета</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146058241-ee04c6f7-9a3c-4677-870f-05c127d09107.png)
+</details>
+
+<details>
+ <summary>Данные студента</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146058562-0b4f4d91-6e05-467d-a082-bc88a65fa039.png)
+</details>
+
+<details>
+ <summary>Список сотрудников</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146058707-7a6cc058-0443-44de-b9e2-6e3717cc994b.png)
+</details>
+
+<details>
+ <summary>Данные сотрудника</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146058779-b1b2ec9f-6ade-4b32-b97e-b6e424eaf2ac.png)
+</details>
+
+<details>
+ <summary>Регистрация пропусков занятий</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146058859-632c17f2-e8b9-4767-a387-a19285f3ddea.png)
+</details>
+
+<details>
+ <summary>Ведомость</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146058951-fcf6388b-bfaf-4cbe-b0af-10a610be288f.png)
+</details>
+
+<details>
+ <summary>Печать ведомости</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146058998-b08b235a-ced9-478c-82d7-c7292f4757fd.png)
+</details>
+
+<details>
+ <summary>Направление на пересдачу</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146059049-b1da3394-1c55-4316-bfe3-35d8dd9791da.png)
+</details>
+
+<details>
+ <summary>Отчеты</summary>
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146059296-3004eda7-30d7-4308-b01b-f0eb72b625f3.png)
+
+ ![image](https://user-images.githubusercontent.com/36636599/146059461-42cda933-ad56-422b-ae7f-e786c7fba000.png)
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146059506-25fd192b-a5cd-4a89-b198-735d2a206547.png)
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146059598-85ac3848-cf7e-491b-900d-2844499fe582.png)
+
+ ![image](https://user-images.githubusercontent.com/36636599/146059663-feca77c3-f0ec-4be7-8c82-a06f7ce48ab6.png)
+
+ ![image](https://user-images.githubusercontent.com/36636599/146059687-f4db9df2-4d5d-49e8-a442-43ef115e73fd.png)
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146059727-a0fb3574-35a7-4b55-a86a-65b7782bd3e7.png)
+ 
+ ![image](https://user-images.githubusercontent.com/36636599/146059774-377dfe27-79b7-4df6-a2f8-aebe4c1ef12a.png)
+</details>
+
+## Лицензия
+
+[MIT](https://github.com/nblackninja/1c-enterprise-college/blob/main/LICENSE)
+
+---
+
+> [nikitayudin782@gmail.com](mailto:nikitayudin782@gmail.com) &nbsp;&middot;&nbsp;
+> GitHub [@nblackninja](https://github.com/с) &nbsp;&middot;&nbsp;
+> Telegram [@yudinikita](https://t.me/yudinikita)
