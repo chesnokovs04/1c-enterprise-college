@@ -66,6 +66,10 @@
 
 Пароль для всех пользователей **1**.
 
+## 📹 Демонстрация
+
+https://user-images.githubusercontent.com/36636599/146062034-67a5d9b2-3da3-4c86-b243-8402e4893eb1.mp4
+
 ## 📌 Примеры
 
 <details>
@@ -141,10 +145,6 @@
  
  ![image](https://user-images.githubusercontent.com/36636599/146059774-377dfe27-79b7-4df6-a2f8-aebe4c1ef12a.png)
 </details>
-
-## 📹 Демонстрация
-
-https://user-images.githubusercontent.com/36636599/146062034-67a5d9b2-3da3-4c86-b243-8402e4893eb1.mp4
 
 ## 🔐 Лицензия
 
