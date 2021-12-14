@@ -146,7 +146,7 @@ https://user-images.githubusercontent.com/36636599/146062034-67a5d9b2-3da3-4c86-
  ![image](https://user-images.githubusercontent.com/36636599/146059774-377dfe27-79b7-4df6-a2f8-aebe4c1ef12a.png)
 </details>
 
-## Инструкция
+## ✍️ Инструкция
 
 <details>
  <summary>Директор</summary>
