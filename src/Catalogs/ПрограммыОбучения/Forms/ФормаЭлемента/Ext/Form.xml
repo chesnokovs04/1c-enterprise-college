@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="ОбразовательнаяОрганизация" id="7">
+			<DataPath>1/0:83e654d2-db14-48d1-bc73-0bb9df635121</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ОбразовательнаяОрганизацияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ОбразовательнаяОрганизацияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<UsualGroup name="Группа2" id="66">
+			<GroupHorizontalAlign>Left</GroupHorizontalAlign>
+			<ShowTitle>false</ShowTitle>
+			<ThroughAlign>Use</ThroughAlign>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="67"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="ГруппаСправочника" id="63">
+					<DataPath>Объект.Parent</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа справочника</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ГруппаСправочникаКонтекстноеМеню" id="64"/>
+					<ExtendedTooltip name="ГруппаСправочникаРасширеннаяПодсказка" id="65"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Специальность" id="10">
+			<DataPath>Объект.Специальность</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="СпециальностьКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СпециальностьРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="ФормаОбучения" id="13">
+			<DataPath>Объект.ФормаОбучения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="ФормаОбученияКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ФормаОбученияРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="БазовоеОбразование" id="16">
+			<DataPath>Объект.БазовоеОбразование</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ContextMenu name="БазовоеОбразованиеКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="БазовоеОбразованиеРасширеннаяПодсказка" id="18"/>
+		</InputField>
+		<UsualGroup name="СрокОбученияГруппа" id="50">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок обучения</v8:content>
+				</v8:item>
+			</Title>
+			<TitleTextColor>web:SteelBlue</TitleTextColor>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Срок обучения группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="СрокОбученияГруппаРасширеннаяПодсказка" id="51"/>
+			<ChildItems>
+				<InputField name="ЛетОбучения" id="19">
+					<DataPath>Объект.ЛетОбучения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ЛетОбученияКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ЛетОбученияРасширеннаяПодсказка" id="21"/>
+					<Events>
+						<Event name="OnChange">СрокОбученияПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="МесяцевОбучения" id="22">
+					<DataPath>Объект.МесяцевОбучения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МесяцевОбученияКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="МесяцевОбученияРасширеннаяПодсказка" id="24"/>
+					<Events>
+						<Event name="OnChange">СрокОбученияПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="СрокОбученияСлитно" id="60">
+					<DataPath>Объект.СрокОбученияСлитно</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>в строку</v8:content>
+						</v8:item>
+					</Title>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<ContextMenu name="СрокОбученияСлитноКонтекстноеМеню" id="61"/>
+					<ExtendedTooltip name="СрокОбученияСлитноРасширеннаяПодсказка" id="62"/>
+					<Events>
+						<Event name="OnChange">СрокОбученияСлитноПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="Квалификации" id="31">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Квалификации</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="КвалификацииКонтекстноеМеню" id="32"/>
+			<AutoCommandBar name="КвалификацииКоманднаяПанель" id="33"/>
+			<ExtendedTooltip name="КвалификацииРасширеннаяПодсказка" id="34"/>
+			<SearchStringAddition name="КвалификацииСтрокаПоиска" id="35">
+				<AdditionSource>
+					<Item>Квалификации</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КвалификацииСтрокаПоискаКонтекстноеМеню" id="36"/>
+				<ExtendedTooltip name="КвалификацииСтрокаПоискаРасширеннаяПодсказка" id="37"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="КвалификацииСостояниеПросмотра" id="38">
+				<AdditionSource>
+					<Item>Квалификации</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="КвалификацииСостояниеПросмотраКонтекстноеМеню" id="39"/>
+				<ExtendedTooltip name="КвалификацииСостояниеПросмотраРасширеннаяПодсказка" id="40"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="КвалификацииУправлениеПоиском" id="41">
+				<AdditionSource>
+					<Item>Квалификации</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="КвалификацииУправлениеПоискомКонтекстноеМеню" id="42"/>
+				<ExtendedTooltip name="КвалификацииУправлениеПоискомРасширеннаяПодсказка" id="43"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="КвалификацииНомерСтроки" id="44">
+					<DataPath>Объект.Квалификации.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КвалификацииНомерСтрокиКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="КвалификацииНомерСтрокиРасширеннаяПодсказка" id="46"/>
+				</LabelField>
+				<InputField name="КвалификацииКвалификация" id="47">
+					<DataPath>Объект.Квалификации.Квалификация</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КвалификацииКвалификацияКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="КвалификацииКвалификацияРасширеннаяПодсказка" id="49"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="Группа1" id="52">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="53"/>
+			<ChildItems>
+				<CheckBoxField name="Действует" id="25">
+					<DataPath>Объект.Действует</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДействуетКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ДействуетРасширеннаяПодсказка" id="27"/>
+					<Events>
+						<Event name="OnChange">ДействуетПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<InputField name="НачалоСрокаОбучения" id="28">
+					<DataPath>Объект.НачалоСрокаОбучения</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НачалоСрокаОбученияКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="НачалоСрокаОбученияРасширеннаяПодсказка" id="30"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.ПрограммыОбучения</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>

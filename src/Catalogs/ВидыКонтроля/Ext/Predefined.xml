@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.9">
+	<Item id="adb195b9-b2e7-4b24-917d-d0d6c44866b1">
+		<Name>ДифференцированныйЗачет</Name>
+		<Code>000000007</Code>
+		<Description>Дифференцированный зачет</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="362ed279-04e6-4cb2-8109-a988f07814fe">
+		<Name>ЗащитаВКР</Name>
+		<Code>000000001</Code>
+		<Description>Защита ВКР</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="8c7d672d-84a2-4d3b-b395-c49331e4df1f">
+		<Name>КонтрольнаяРабота</Name>
+		<Code>000000005</Code>
+		<Description>Контрольная работа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="b57604ec-7e14-473a-a58a-d2d3644d0276">
+		<Name>КурсовойПроект</Name>
+		<Code>000000006</Code>
+		<Description>Курсовой проект</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="f39f5665-4029-4f42-a66b-2a218cc2d0c0">
+		<Name>ОтветУДоски</Name>
+		<Code>000000004</Code>
+		<Description>Ответ у доски</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="da78429a-a5cd-4041-920c-e2c8bd899ccb">
+		<Name>Практика</Name>
+		<Code>000000003</Code>
+		<Description>Практика</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="d56fe819-6ce1-4175-bb10-2cc86b1d69db">
+		<Name>СамостоятельнаяРабота</Name>
+		<Code>000000002</Code>
+		<Description>Самостоятельная работа</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="be33a751-1f77-4954-8f01-c2049213d546">
+		<Name>ЭкзаменСеместровый</Name>
+		<Code>000000008</Code>
+		<Description>Экзамен семестровый</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>

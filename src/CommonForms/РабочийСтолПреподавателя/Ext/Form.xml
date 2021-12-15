@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Рабочий стол преподавателя</v8:content>
+		</v8:item>
+	</Title>
+	<AutoTitle>false</AutoTitle>
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Шаги" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Необходимые действия</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шаги</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ШагиРасширеннаяПодсказка" id="2"/>
+			<ChildItems>
+				<UsualGroup name="Справочники" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Справочники</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Справочники</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="СправочникиРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<PictureDecoration name="Один" id="9">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Один</v8:content>
+								</v8:item>
+							</Title>
+							<Picture>
+								<xr:Ref>CommonPicture.Посещаемость2</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ОдинКонтекстноеМеню" id="10"/>
+							<ExtendedTooltip name="ОдинРасширеннаяПодсказка" id="11"/>
+						</PictureDecoration>
+						<PictureDecoration name="Декорация3" id="103">
+							<Height>1</Height>
+							<ContextMenu name="Декорация3КонтекстноеМеню" id="104"/>
+							<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="105"/>
+						</PictureDecoration>
+						<LabelDecoration name="Заполнить" id="18">
+							<Font ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ввести</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="ЗаполнитьКонтекстноеМеню" id="19"/>
+							<ExtendedTooltip name="ЗаполнитьРасширеннаяПодсказка" id="20"/>
+						</LabelDecoration>
+						<SearchStringAddition name="Дополнение1" id="94">
+							<ContextMenu name="Дополнение1КонтекстноеМеню" id="95"/>
+							<ExtendedTooltip name="Дополнение1РасширеннаяПодсказка" id="96"/>
+						</SearchStringAddition>
+						<Button name="Кнопка8" id="88">
+							<Type>UsualButton</Type>
+							<CommandName>Document.РегистрацияПропусковЗанятий.StandardCommand.Create</CommandName>
+							<TextColor>style:ButtonBackColor</TextColor>
+							<BackColor>style:NavigationColor</BackColor>
+							<BorderColor>style:ButtonBorderColor</BorderColor>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Пропуски занятий</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="Кнопка8РасширеннаяПодсказка" id="89"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<PictureDecoration name="Декорация1" id="97">
+					<Width>4</Width>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="98"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="99"/>
+				</PictureDecoration>
+				<UsualGroup name="Приказы" id="5">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приказы</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приказы</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ПриказыРасширеннаяПодсказка" id="6"/>
+					<ChildItems>
+						<PictureDecoration name="Два" id="12">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Два</v8:content>
+								</v8:item>
+							</Title>
+							<Picture>
+								<xr:Ref>CommonPicture.Ведомость</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ДваКонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="ДваРасширеннаяПодсказка" id="14"/>
+						</PictureDecoration>
+						<PictureDecoration name="Декорация4" id="106">
+							<Height>1</Height>
+							<ContextMenu name="Декорация4КонтекстноеМеню" id="107"/>
+							<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="108"/>
+						</PictureDecoration>
+						<LabelDecoration name="Создать" id="29">
+							<Font ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Заполнить</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СоздатьКонтекстноеМеню" id="30"/>
+							<ExtendedTooltip name="СоздатьРасширеннаяПодсказка" id="31"/>
+						</LabelDecoration>
+						<Button name="Кнопка1" id="90">
+							<Type>UsualButton</Type>
+							<CommandName>Document.Ведомость.StandardCommand.Create</CommandName>
+							<TextColor>style:ButtonBackColor</TextColor>
+							<BackColor>style:NavigationColor</BackColor>
+							<BorderColor>style:ButtonBorderColor</BorderColor>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Ведомость</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="Кнопка1РасширеннаяПодсказка" id="91"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<PictureDecoration name="Декорация2" id="100">
+					<Width>4</Width>
+					<ContextMenu name="Декорация2КонтекстноеМеню" id="101"/>
+					<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="102"/>
+				</PictureDecoration>
+				<UsualGroup name="Отчеты" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчеты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчеты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<HorizontalAlign>Center</HorizontalAlign>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ОтчетыРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<PictureDecoration name="Три" id="26">
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Три</v8:content>
+								</v8:item>
+							</Title>
+							<Picture>
+								<xr:Ref>CommonPicture.Пересдача</xr:Ref>
+								<xr:LoadTransparent>true</xr:LoadTransparent>
+							</Picture>
+							<ContextMenu name="ТриКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="ТриРасширеннаяПодсказка" id="28"/>
+						</PictureDecoration>
+						<PictureDecoration name="Декорация5" id="109">
+							<Height>1</Height>
+							<ContextMenu name="Декорация5КонтекстноеМеню" id="110"/>
+							<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="111"/>
+						</PictureDecoration>
+						<LabelDecoration name="Составить" id="32">
+							<Font ref="style:LargeTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<Title formatted="false">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Создать</v8:content>
+								</v8:item>
+							</Title>
+							<ContextMenu name="СоставитьКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="СоставитьРасширеннаяПодсказка" id="34"/>
+						</LabelDecoration>
+						<Button name="Кнопка2" id="92">
+							<Type>UsualButton</Type>
+							<CommandName>Document.НаправлениеНаПересдачу.StandardCommand.Create</CommandName>
+							<TextColor>style:ButtonBackColor</TextColor>
+							<BackColor>style:NavigationColor</BackColor>
+							<BorderColor>style:ButtonBorderColor</BorderColor>
+							<Font ref="style:LargeTextFont" kind="StyleItem"/>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Направление на пересдачу</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="Кнопка2РасширеннаяПодсказка" id="93"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Реквизит1" id="1">
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Зачислить" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зачислить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Зачислить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьФормуПриказа</Action>
+		</Command>
+		<Command name="Отчислить" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчислить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчислить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьФормуПриказа</Action>
+		</Command>
+		<Command name="Восстановить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Восстановить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьФормуПриказа</Action>
+		</Command>
+		<Command name="Выпустить" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выпустить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Выпустить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьФормуПриказа</Action>
+		</Command>
+		<Command name="ДругойКурс" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Другой курс</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Другой курс</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьФормуПриказа</Action>
+		</Command>
+		<Command name="ДругаяГруппа" id="6">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Другая группа</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Другая группа</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОткрытьФормуПриказа</Action>
+		</Command>
+	</Commands>
+</Form>

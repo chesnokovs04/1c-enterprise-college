@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<WindowOpeningMode>LockOwnerWindow</WindowOpeningMode>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="КодСтатусКурс" id="65">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код статус курс</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Код статус курс</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="КодСтатусКурсРасширеннаяПодсказка" id="66"/>
+			<ChildItems>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<LabelField name="Статус" id="10">
+					<DataPath>Объект.Статус</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СтатусКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="СтатусРасширеннаяПодсказка" id="12"/>
+				</LabelField>
+				<InputField name="Курс" id="13">
+					<DataPath>Объект.Курс</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КурсКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="КурсРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа учебных групп</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<Pages name="Информация" id="67">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Информация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ИнформацияРасширеннаяПодсказка" id="68"/>
+			<ChildItems>
+				<Page name="Основное" id="69">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ОсновноеРасширеннаяПодсказка" id="70"/>
+					<ChildItems>
+						<InputField name="ФормаОбучения" id="16">
+							<DataPath>Объект.ФормаОбучения</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ФормаОбученияКонтекстноеМеню" id="17"/>
+							<ExtendedTooltip name="ФормаОбученияРасширеннаяПодсказка" id="18"/>
+						</InputField>
+						<InputField name="Отделение" id="19">
+							<DataPath>Объект.Отделение</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОтделениеКонтекстноеМеню" id="20"/>
+							<ExtendedTooltip name="ОтделениеРасширеннаяПодсказка" id="21"/>
+						</InputField>
+						<InputField name="ПрограммаОбучения" id="25">
+							<DataPath>Объект.ПрограммаОбучения</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПрограммаОбученияКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ПрограммаОбученияРасширеннаяПодсказка" id="27"/>
+						</InputField>
+						<InputField name="ОсновнойВидФинансирования" id="28">
+							<DataPath>Объект.ОсновнойВидФинансирования</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ОсновнойВидФинансированияКонтекстноеМеню" id="29"/>
+							<ExtendedTooltip name="ОсновнойВидФинансированияРасширеннаяПодсказка" id="30"/>
+						</InputField>
+						<InputField name="ГодПоступления" id="31">
+							<DataPath>Объект.ГодПоступления</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ГодПоступленияКонтекстноеМеню" id="32"/>
+							<ExtendedTooltip name="ГодПоступленияРасширеннаяПодсказка" id="33"/>
+						</InputField>
+						<InputField name="ДатаОкончанияОбучения" id="34">
+							<DataPath>Объект.ДатаОкончанияОбучения</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ДатаОкончанияОбученияКонтекстноеМеню" id="35"/>
+							<ExtendedTooltip name="ДатаОкончанияОбученияРасширеннаяПодсказка" id="36"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="Дополнительное" id="71">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительное</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дополнительное</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="ДополнительноеРасширеннаяПодсказка" id="72"/>
+					<ChildItems>
+						<InputField name="Куратор" id="37">
+							<DataPath>Объект.Куратор</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<DropListButton>true</DropListButton>
+							<ChoiceButton>false</ChoiceButton>
+							<CreateButton>true</CreateButton>
+							<ContextMenu name="КураторКонтекстноеМеню" id="38"/>
+							<ExtendedTooltip name="КураторРасширеннаяПодсказка" id="39"/>
+						</InputField>
+					</ChildItems>
+				</Page>
+				<Page name="СеместрыОбученияСтраница" id="73">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Семестры обучения</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Семестры обучения страница</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ExtendedTooltip name="СеместрыОбученияСтраницаРасширеннаяПодсказка" id="74"/>
+					<ChildItems>
+						<Table name="СеместрыОбучения" id="40">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.СеместрыОбучения</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СеместрыОбученияКонтекстноеМеню" id="41"/>
+							<AutoCommandBar name="СеместрыОбученияКоманднаяПанель" id="42"/>
+							<ExtendedTooltip name="СеместрыОбученияРасширеннаяПодсказка" id="43"/>
+							<SearchStringAddition name="СеместрыОбученияСтрокаПоиска" id="44">
+								<AdditionSource>
+									<Item>СеместрыОбучения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СеместрыОбученияСтрокаПоискаКонтекстноеМеню" id="45"/>
+								<ExtendedTooltip name="СеместрыОбученияСтрокаПоискаРасширеннаяПодсказка" id="46"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СеместрыОбученияСостояниеПросмотра" id="47">
+								<AdditionSource>
+									<Item>СеместрыОбучения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СеместрыОбученияСостояниеПросмотраКонтекстноеМеню" id="48"/>
+								<ExtendedTooltip name="СеместрыОбученияСостояниеПросмотраРасширеннаяПодсказка" id="49"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СеместрыОбученияУправлениеПоиском" id="50">
+								<AdditionSource>
+									<Item>СеместрыОбучения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СеместрыОбученияУправлениеПоискомКонтекстноеМеню" id="51"/>
+								<ExtendedTooltip name="СеместрыОбученияУправлениеПоискомРасширеннаяПодсказка" id="52"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СеместрыОбученияНомерСтроки" id="53">
+									<DataPath>Объект.СеместрыОбучения.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СеместрыОбученияНомерСтрокиКонтекстноеМеню" id="54"/>
+									<ExtendedTooltip name="СеместрыОбученияНомерСтрокиРасширеннаяПодсказка" id="55"/>
+								</LabelField>
+								<InputField name="СеместрыОбученияСеместр" id="56">
+									<DataPath>Объект.СеместрыОбучения.Семестр</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СеместрыОбученияСеместрКонтекстноеМеню" id="57"/>
+									<ExtendedTooltip name="СеместрыОбученияСеместрРасширеннаяПодсказка" id="58"/>
+								</InputField>
+								<InputField name="СеместрыОбученияКурс" id="59">
+									<DataPath>Объект.СеместрыОбучения.Курс</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СеместрыОбученияКурсКонтекстноеМеню" id="60"/>
+									<ExtendedTooltip name="СеместрыОбученияКурсРасширеннаяПодсказка" id="61"/>
+								</InputField>
+								<InputField name="СеместрыОбученияПериодОбучения" id="62">
+									<DataPath>Объект.СеместрыОбучения.ПериодОбучения</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СеместрыОбученияПериодОбученияКонтекстноеМеню" id="63"/>
+									<ExtendedTooltip name="СеместрыОбученияПериодОбученияРасширеннаяПодсказка" id="64"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.УчебныеГруппы</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<CommandInterface>
+		<NavigationPanel>
+			<Item>
+				<Command>FilterCriterion.СоставГруппы.StandardCommand.OpenByValue</Command>
+				<Type>Auto</Type>
+				<DefaultVisible>false</DefaultVisible>
+			</Item>
+		</NavigationPanel>
+	</CommandInterface>
+</Form>

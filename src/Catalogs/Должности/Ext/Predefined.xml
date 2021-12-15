@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CatalogPredefinedItems" version="2.9">
+	<Item id="6c2a669b-1642-45d7-8c2d-e6cd28733857">
+		<Name>Директор</Name>
+		<Code>000000001</Code>
+		<Description>Директор</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="46a5b517-7733-4534-be8e-14e67e245057">
+		<Name>ЗаведующийОтделением</Name>
+		<Code>000000002</Code>
+		<Description>Заведующий отделением</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+	<Item id="7bfdc407-a938-425f-92bb-3bbfc616c31a">
+		<Name>Преподаватель</Name>
+		<Code>000000003</Code>
+		<Description>Преподаватель</Description>
+		<IsFolder>false</IsFolder>
+	</Item>
+</PredefinedData>
