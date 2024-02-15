@@ -320,6 +320,6 @@ git clone https://github.com/nblackninja/1c-enterprise-college
 
 ---
 
-> [nikitayudin782@gmail.com](mailto:nikitayudin782@gmail.com) &nbsp;&middot;&nbsp;
-> GitHub [@nblackninja](https://github.com/с) &nbsp;&middot;&nbsp;
-> Telegram [@yudinikita](https://t.me/yudinikita)
+> Site [yudinikita.ru](https://yudinikita.ru) &nbsp;&middot;&nbsp;
+> Email <mail@yudinikita.ru> &nbsp;&middot;&nbsp;
+> GitHub [@yudinikita](https://github.com/yudinikita)
